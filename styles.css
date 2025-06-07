@@ -1,0 +1,65 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.beacon-card {
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.beacon-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.status-detected {
+    border-left: 4px solid #198754;
+}
+
+.status-lost {
+    border-left: 4px solid #dc3545;
+}
+
+.status-vibrate {
+    border-left: 4px solid #fd7e14;
+}
+
+.status-authenticated {
+    border-left: 4px solid #0d6efd;
+}
+
+.badge-rssi {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.room-card {
+    background-color: #f8f9fa;
+    border-radius: 6px;
+}
+
+.event-row-detected {
+    background-color: rgba(25, 135, 84, 0.1) !important;
+}
+
+.event-row-lost {
+    background-color: rgba(220, 53, 69, 0.1) !important;
+}
+
+.event-row-vibrate {
+    background-color: rgba(253, 126, 20, 0.1) !important;
+}
+
+.event-row-authenticated {
+    background-color: rgba(13, 110, 253, 0.1) !important;
+}
